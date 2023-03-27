@@ -28,129 +28,531 @@
     </head>
     <body>
     <div class="article">
-<h2>Introducing Motherbrain: Big data & machine learning meets private equity</h2>
-<p>Oct 11, 2022
-Save
-The power of artificial intelligence and machine learning is all around us. Unlock your phone using facial recognition, scroll through your personalized social media feed, use a travel app to get to work — all use AI and machine learning. You would also think that these technologies would be central to the investment industry. In some ways you would be right, but in others there is still a long way to go.
-Traditionally, financial investors relied on personal networks to find the best opportunities; it was a case of “who you know, not what you know”. In recent decades, investors in public markets have turned to a more data-driven approach that promotes automation, objectiveness and consistency. This has been facilitated by the large amounts of data available on publicly traded companies, which is essential for machine learning platforms. And here is where private capital investors have struggled — there simply isn’t as much data available on private companies.
-But as our world becomes increasingly digitized and large volumes of high-quality data on private companies becomes publicly accessible, this is changing. AI and machine learning can be used to sift through millions of data points everyday, at speeds far greater than could be expected of humans.
-This is where Motherbrain comes in. Motherbrain leverages big data and machine learning to give EQT, a purpose-driven global investment organization with nearly €80 billion assets under management, a unique edge. Built by a dedicated in-house team of data scientists, machine learning engineers, data engineers, product designers, full stack developers and researchers, the proprietary platform helps EQT make faster, smarter and fairer decisions.
-Motherbrain is deeply ingrained into EQT’s processes and used by all investment teams across EQT’s 23 offices globally. It plays three key roles:
-We believe that Motherbrain is a pioneer in the private capital industry, but it doesn’t end there — we want to learn from the AI and machine learning community as a whole, while giving back. We’ve already started to do this: for example, two research papers authored by Motherbrain were published by EMNLP (the 2021 Conference on Empirical Methods in Natural Language Processing) and CIKM (the 2022 ACM International Conference on Information and Knowledge Management) respectively. EMNLP and CIKM are acknowledged as the top-tier academic conferences in natural language processing and data mining.
-That’s also why we’re here today. We think giving back to the community is central to our shared success. We will use this page to share product updates, interesting use-cases, research & development progress, and much more. We want this to be a place for conversation and debate, one that ultimately is for the benefit of all.
-So if you want to follow and participate in the Motherbrain journey, click the follow button below. Our comments section is always open. We look forward to speaking to you again soon!
-</p>
-</div>
-<div class="article">
-<h2>Using Deep Learning to Find the Next Unicorn: A Practical Synthesis</h2>
-<p>Oct 31, 2022
-Save
-Machine Learning is increasingly being succeeded by Deep Learning as the method of choice for investors looking to predict startup success. But academic research into Deep Learning has been limited to date. EQT Motherbrain is changing that.
-On the hunt for a unicorn
-The life of a startup is a treacherous one. When done well, they are a source of innovation, disruption and highly scalable opportunity. Many of today’s most important economic and social developments can be sourced back to a startup.
-But these positive aspects are almost always hamstrung from day one. Limited funding and a lack of human resources are just two of the major challenges that face-up from the moment of inception. Making it through the early stages is rare, which makes it equally difficult to identify winners. It’s like “spotting a unicorn in the wild’’.
-But for venture capitalists, this is the name of the game. They strive to identify and invest in unicorn startups during their early stages, hoping to gain a high return. How can Deep Learning help?
-This is what EQT Motherbrain has attempted to answer. In conjunction with co-authors from Stockholm School of Economics and Stockholm University, we have recently led a research effort to review published literature that address the problem of startup success prediction using Deep Learning methods. We’re very excited to be sharing this publicly in our latest working paper.
-From Machine Learning to Deep Learning
-To avoid entirely relying on human domain expertise and intuition, investors usually employ data-driven approaches to forecast the success probability of startups. Over the past two decades, the industry has gone through a paradigm shift moving from conventional statistical approaches towards becoming machine-learning (“ML”) oriented.
-Notably, the recent rapid growth of data volume and variety is quickly ushering in deep learning (“DL”), a subset of ML, as a potentially superior approach in terms capacity (how much data a model can fit) and expressivity (how many types of data the model can approximate). However, there has not yet been a comprehensive synthesis of the existing DL based research. This leaves many practitioners uninformed and vulnerable to some pitfalls hidden in nine key tasks: problem scoping, success definition, data gathering, data processing, data split, model selection, model evaluation, model explanation, and model productization.
-To overcome these challenges, EQT Motherbrain has carried out a literature synthesis on DL based methods, reviewing the material through a practical lens. The key statistics and learnings are presented from nine perspectives (corresponding to the aforementioned nine tasks) in the form of a working paper. By reading this paper, a practitioner in the field may be able to obtain a more thorough and in-depth understanding of the methodologies around startup evaluation with DL, and distill valuable and actionable learnings.
-We would love to hear your thoughts about the paper. If you have any questions, please email the authors Lele Cao (lele.cao@eqtpartners.com) or Vilhelm von Ehrenheim (vilhelm.vonehrenheim@eqtpartners.com).
-</p>
-</div>
-<div class="article">
-<h2>Predicting Revenue for Scaleup Companies</h2>
-<p>Nov 23, 2022
-Save
-EQT Motherbrain is excited to share a novel approach it has developed for predicting the revenue of scaleup companies. It was presented recently at the 31st ACM International Conference on Information and Knowledge Management (CIKM 2022) by Lele Cao, Sonja Horn, Vilhelm von Ehrenheim, Richard Anselmo Stahl, and Henrik Landgren.
-The underlying problem
-Predicting a company’s financial future is a complex yet necessary task, one that is critical for businesses’ decision-making. Fundamentally, it is an informed guess that relies on examining historical performance data. Yet, as we have all seen, due to random elements that cannot be incorporated into a model, forecasts can easily break down.
-Investors rely on financial forecasts when determining the valuation of a business. Whether relying on discounted future cash flows or determining the valuation on a multiple basis of future EBITDA, forecasts can make or break an investment. For mature businesses with a long track record and resilient cash flows, deviations between predictions and the actual outcomes might not be significant. But for businesses with insufficient historical data and inherently uncertain future prospects, such as startups and scaleups, this looks different.
-A start-up moves into scaleup territory when demonstrating the scalability and viability of its business model and experiencing an accelerated cycle of revenue growth. The raising of outside capital usually accompanies this transition.
-In comparison to most mature companies, scaleups are often not profitable. Consequently, revenue becomes one of the most important metrics when evaluating scaleups, and valuation is typically determined on a multiple basis of future revenues from which investment professionals extrapolate future company revenues.
-Revenue forecasting is typically done manually and empirically, leaving the quality heavily dependent on the investment professionals’ experiences. Factors such as business model, competitor landscape, market trends, and unit economics are considered. The task is essential to evaluating the attractiveness of an investment, as it informs the change in valuation during the ownership period. However, the level of automation, objectiveness, consistency, and adaptability of this approach is far from optimal.
-Quantitative methods such as traditional statistical approaches or newly developed AI-based methodologies have been increasingly adopted in the forecasting of traditional and mature businesses. But why hasn’t this spread over to the world of start-ups and scaleups?
-The answer lies in the data, which for immature businesses is often proprietary and costly to acquire. However, this is changing — the ubiquity of digitization means that large amounts of high-quality data on private companies are progressively more accessible publicly.
-Introducing SiRE
-We call the answer to this challenge SiRE, a simulation-informed revenue extrapolation model.
-SiRE is based on a Kalman Filter, a methodology typically used for the navigation and control of aircrafts and spaceships. It is sector-agnostic, permitting investors to apply it across multiple industries. It only needs small datasets of a few hundred scaleup companies for training, and the extrapolation can commence from short revenue time series enabling revenue predictions even without granular historical data. It can produce fine-grained predictions of multiple years, accommodating the typical investment periods of 5 years and longer. Each revenue prediction comes with a confidence estimate, providing investors with guidance on outcome certainty. The model is easy to implement, and predictions are explainable, promoting transparency to build trust and capture feedback.
-SiRE is designed on the main assumption that revenue development is likely to repeat historical patterns for similar companies at a similar stage. Each future revenue point is initially obtained by sampling from the comparable revenue states, then adjusted with a Kalman Filter that considers historical and predicted revenue points. The prediction confidence is estimated by extrapolating multiple times.
-Demonstrating how we use SiRE within EQT
-So, how do we use it within EQT? Trained on a proprietary dataset of revenue trajectories from our portfolio companies and other data we have collected through nearly three decades of investing, SiRe can be used in two ways:
-For example, in August 2021, we received data from a company that had approximately USD 10 million in revenue, growing 150% year-over-year. Our revenue prediction model predicted with 95% confidence that the company would end up with revenue between USD 29 million and USD 40 million 12 months later. When receiving the actual data, we were delighted to find out that the company ended up with USD 30 million.
-To learn more about SiRE and how it works, find an explanation of the method in our paper and the source code here
-</p>
-</div>
-<div class="article">
-<h2>Disrupting private capital using machine learning and an event-driven architecture</h2>
-<p>Dec 14, 2022
-Save
-Written by Ylva Lundegård and Dhiana Deva
-There are currently hundreds of millions of companies worldwide, and thousands of new companies are founded daily. It is extremely challenging to track and analyze them all, but EQT has a secret weapon, Motherbrain. Let’s take a look at the data architecture behind the Motherbrain platform that uses big data and machine learning to support a variety of applications and use cases in the investment industry. Motherbrain’s data pipeline is built with scalability and robustness in mind to withstand large volumes of noisy data.
-External data sources
-External data is ingested through batch pipelines that clean, normalize and store the data in a uniform way. All data pipelines are written in Apache Beam, and run on Dataflow.
-Data logs
-To make the architecture fit with all types of data formats, the data is reduced to small pieces of information on an attribute level, together with metadata. It is then stored in BigTable, while a Kafka message is sent to notify there is new or updated data. This abstraction makes it possible to keep the data loosely coupled and easily merge data entities into a single entity downstream. This also enables flexibility when changing either ingestion jobs or entity structures downstream.
-Materializers
-Next up is what the EQT Motherbrain calls materializers, the streaming pipelines responsible for putting together the entities again after listening to the Kafka messages. Two things are essential for the materializers to decide here: (1) what should go into the entity and (2) what is the most likely correct information. There can be contradictory information from different sources, e.g. one data source saying that a company is named “Vandelay Industries” while another is saying “Vandelay Ind.” This is where Motherbrain needs to make a decision about which one to pick.
-A core part of putting the entities together is to have a good entity resolution, which is where the entity matching service comes into play. It’s an online prediction service implemented using Scala, Vertex AI, Tensorflow, and Elasticsearch. This service is responsible for deciding what data from the different sources belong together.
-Consumers
-After entities have been built, they are sent to Kafka to be consumed by other applications. The primary consumer of the data is Motherbrain’s web UI, which is made easily accessible via Elasticsearch. Other consumers are the superusers, mainly the Motherbrain Labs team, who access the data from BigQuery and usually do more ad-hoc analysis.
-User input
-Apart from the external data, EQT users continuously provide valuable proprietary data via the Motherbrain platform. This goes through a similar flow as the external data sources but is generally prioritized higher by Motherbrain when materializing the entities or training models.
-The architecture of Motherbrain needs to be dynamic to react to the ever-changing world. EQT Motherbrain’s solution to this has been to build an event-driven architecture that can break down data into smaller bits and pieces whenever needed, add intelligence to it, and put it back together to empower EQT to make faster, smarter, and more conscious decisions.
-This post is based on our Heroes of Data talk summary
-</p>
-</div>
-<div class="article">
-<h2>Applying Transformers to Score Potentially Successful Startups</h2>
-<p>Feb 6
-Save
-As investment firms aim to invest in promising companies, they constantly face the critical task of estimating the chance of success for these. In Venture Capital, this task is often referred to as Startup Success Prediction (SSP).
-“Finding the most promising, likely-to-succeed startups for early-stage investment is the holy grail of data-driven Venture Capital. We work with this continuously at EQT Ventures and Motherbrain, but using models for it is difficult: startup data is sparse and noisy, and the rare successes can only be proven years after the initial funding rounds. Additionally, the definition of success changes over time. For a prediction model to be resistant, it needs to identify the constant, underlying signals that stand the test of time and universally define successful early-stage companies.”
-– Anton Ask Åström, Analytics Lead, EQT Ventures
-Traditionally, Venture Capital firms have mostly relied on analytical, statistical, or manual methods for sourcing new startup deals, but recently Deep Learning (DL) has been increasingly utilized for this task. One reason is the complexity of the task requires making predictions based on incomplete information — mostly due to startups lacking a lot of public information in their early stages.
-Additionally, the correlations and signals indicating success may exist in dramatically different configurations, depending on the startup in focus. Therefore, a DL-based method needs to be able to successfully model complex correlations amongst the input features and often correlations between numerous different input features to compensate for the data shortage. These DL-based methods are also able to sift through magnitudes more data compared to their non-DL alternatives.
-Adding more complexity to the SSP problem is the importance of time. A performant method should be phase-agnostic meaning it finds a potentially successful startup regardless of which phase the startup is in at the time of evaluation. Therefore, even if the successful startup has just been founded, or is just in the process of entering a growth phase, it should be correctly identified.
-To summarize, SSP as a DL problem has the following three challenges:
-Capturing the temporal correlations between different features is important for the SSP problem. Therefore, many existing methods utilize specifically time series — a sequence of values. With time series data, the prediction can be potentially guided by the time, order, and frequency of these sequential values, which is an important characteristic of SSP.
-In the past, statistical methods have been surprisingly dominant within the field of Time Series Classification, and it is only recently that DL-based methods such as the Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), or Gated Recurrent Unit (GRU) have been catching up in terms of performance. This can be observed specifically within the context of multivariate time series classification, where the complexity of the problem increases. Unlike univariate time series classification, the model needs to capture patterns across multiple time series, and in return hopefully yield improved performance. A univariate structure could also be extended to include multiple time series features separately, a common solution if the time series features that are available do not have the same frequency.
-Another consideration for SSP is the choice of evaluation strategy. We previously mentioned the challenge of correctly identifying startups regardless of the phase in their lifecycle. To address this, one can opt for an investor-centric data split strategy — replacing the traditional random sampling strategy. Concretely, we extrapolate a single sample into multiple samples (each representing the company at different stages in time), and build the evaluation dataset on only the most recent samples. As a result, the model is expected to act phase-agnostically while it also better resembles the real-world usage of the model by investment professionals.
-In a paper from 2021, the authors presented a Transformer-based method and architecture, called the TST, for multivariate time series classification. The architecture showed promising results on public time series datasets, even outperforming state-of-the-art statistical and DL-based methods. However, the TST had yet to be adapted and tested on real-world data with all the accompanying challenges, specifically within the investment domain.
-This is where we at Motherbrain saw the potential to improve our existing scoring models. By focusing solely on time series features from a variety of data sources — and the labels from our in-house investment professionals — the TST architecture was modified and implemented to potentially further improve our scoring models.
-When trained and evaluated on the labeled EQT dataset, several interesting results emerged. Firstly, a Univariate GRU model was implemented where each time series feature was given a separate GRU block. Additionally, a Multivariate GRU was implemented, where all features share one common GRU block. This was done to help determine if any improvements observed were due to the Transformer, or just the introduction of multivariate learning itself.
-In our testing, the TST model showed a 12% increase in test performance (from 0.81 to 0.92 AUC) compared to the Multivariate GRU and as much as a 47% increase (0.62 AUC) compared to the Univariate GRU. The model was also tested on two public datasets from the public UCR archive (Ethanol and PEMS-SF datasets). The purpose was to gain even more insights into how the model performs for different datasets. The TST once again showed the highest average accuracy across these datasets.
-Training TimesAdditionally, the cost of increased training times for TST was limited. While the GRU is the simplest architecture computationally, only a 4x increase in training times was observed for TST compared to the Multivariate GRU. Furthermore, for the Univariate GRU, the TST even decreased its training times by over 15x. Furthermore, the multi-head attention mechanism of the Transformer allows the network to parallelize its computations on modern GPUs to decrease its training times and therefore makes it possible to train models on dramatically larger datasets.
-Training StabilityWhile the Transformer is known to be potentially difficult and unstable to train, we did not encounter these issues. In fact, the TST was the most stable out of all four models, delivering the lowest standard deviation amongst different training runs.
-Besides achieving higher prediction performance, the Transformer can bring other potential advantages to the table as well.
-Better explainabilityThe attention mechanism inherently produces a weighted matrix of how its weights are distributed along the input sequence. Therefore, one can gain insights, on an instance level, into what parts of the sequence the model focuses on, and in turn, achieve a higher explainability of the model as a whole.
-Embeddings utilizationThrough its use of the Encoder-Decoder architecture, it inherently uses embeddings and is therefore more effectively integrated with, for example, a language model to achieve a multimodal architecture. Additionally, the embeddings learned by the model can be used for other downstream tasks.
-Unsupervised learning capabilityA large contribution of the original TST paper was the introduction of an unsupervised masked learning routine. By masking parts of the time series sequences, and training the network to predict the masked part, the model will theoretically learn a more effective representation before being fine-tuned on labeled data. While not thoroughly tested yet by us, this approach could drive the most potential, since it would allow the model to train on the considerably more abundant and cheaper unlabeled data.
-By its nature, SSP is a complex problem that requires sifting through massive, but sparse, amounts of data to find the startups in the world that show real potential. We at EQT have long seen the potential in aiding this through our data-driven platform Motherbrain and its scoring models.
-The TST we explored shows the promise of Transformer-based models for SSP in the future where the results suggest it to be a performant alternative to the GRU architecture for multivariate time series classification in the investment domain. The architecture can also easily be generalized to work in other investment contexts such as the Growth and Private Equity funds and therefore provide some exciting future possibilities.
-</p>
-</div>
-<div class="article">
-<h2>The voyage towards GPT-Enabled M&A</h2>
-<p>Mar 20
-Save
-Proofreaders: Lele Cao, Alex Carusillio & Chat GPT
-EQT launched Motherbrain in 2016, primarily focused on supporting the Venture fund in finding the next tech unicorn. Today, Motherbrain is used across the business, powering everything from early-stage investment all the way through to multi-billion dollar buyouts.
-One of Motherbrain’s key services is supporting add-on acquisitions, which is where EQT supports its portfolio companies in acquiring a smaller company, usually one that offers complementary products or services. In recent months we have introduced Generative Pre-trained Transformer (GPT) models, similar to Chat GPT, to speed up the M&A sourcing process by enabling our portfolio to scan hundreds of thousands of companies. In this article, we will look back at the evolution of Motherbrain M&A sourcing and share some learnings from the journey.
-Motherbrain’s first endeavor to support M&A sourcing was by introducing a product called Spaces, in which investment professionals began by submitting a description of a target company.
-The goal with Spaces was to train an artificial intelligence. It functioned much like the popular dating app Tinder. Companies would appear and investment professionals would swipe left or right depending on the company interests. Behind the scenes, the platform used machine learning to identify similar companies based on the user’s description and feedback. Once the AI had collected enough swipes, it produced a final list of potential acquisition targets for the human to review. The final list is the AI’s interpretation of what is relevant based on the reinforcement it received. It could pick up any underlying trends in the text, like similar technologies, phrases, or other commonalities, enabling it to find new angles of connecting the dots between companies that are less natural for a human to derive.
-While this approach may sound intelligent, the team later realized it was a prime example of engineers shoehorning technology into a product without fully considering the end user’s needs. Investment professionals need control and the ability to audit the data before trusting a solution.
-We encountered problems with Spaces when companies that the investment professionals expected to be in the list did not appear, which led us to losing trust.
-Our solution needed more explainability, enabling the user to assess the underlying data and build conviction. Secondly, our users requested more control. Investment professionals often have specific valuation, regional, or revenue requirements that make something “the right target”. These factors were not part of the user input to the Spaces AI.
-Following the creation of Spaces, we learned we needed to invest in a team that could work closely with specific deals to learn and adapt our approach while providing more value per case, shifting from autonomy to bespoke analysis. This became Motherbrain Labs, a team of seasoned technologists that collaborate with investment professionals and EQT’s digital arm to develop software-based solutions that address nuanced business challenges, which conventional means cannot address. Identifying potential acquisition targets has become a particular area of competitive advantage for the team.
-Labs evolved from using Spaces to a more practical approach called List Expansion. List Expansion is a versatile solution that works by analyzing a set of interesting companies and their key characteristics. You select the criteria that are most important to you and it will identify similar companies from our extensive datasets.
-The figure above illustrates this process in action. From the left it shows the data sources we used to find similar companies. The user then controls and filters out companies based on their specific requirements, such as region, FTEs, valuation, and more (seen as the Sanky flows to the right in the figure). All filtered out companies are stored separately, so you can inspect them later for traceability and control. Finally, the orange line in the figure shows the list of companies that fulfill all your criteria and require manual review. Like Space’s final list, the orange line presents the relevant company’s firmographics but now fully reflects the user’s input and is no longer produced by an AI.
-This workflow allowed investment professionals to understand where companies got filtered out and how many they have left as relevant targets, then they could backtest the results for quality control. It gained the trust we sought, but the iteration speed was still slow.
-Two main factors hindered the iteration process. First, it required an extensive manual review of companies, some of which were only partially aligned with the desired businesses. Second, after the manual examination, the list was discussed with the portfolio company, where differing perspectives on specific needs within the field often necessitated further rounds of iteration to arrive at a satisfactory list.
-The release and commoditization of OpenAI’s Chat GPT has brought the power of machine learning to a wider audience. One particularly intriguing aspect is the ability to create a customized GPT-3 model on top of the OpenAI engine, which can be tailored to excel in a specific domain — in our case, M&A.
-In ​​January 2023, we deployed our new solution using the OpenAI engine. It allows users to describe a variety of businesses of interest, then we extract all companies matching the criteria and let a bespoke GPT model analyze the dataset. The user can manually review the extensive collection of companies or use our GPT model to speed up the process by asking the model questions about the business in the set. Similarly to Chat GPT, you can ask questions like “provide me companies using computer vision and machine learning for tracking X in Y industry.” The bot will answer by providing companies that match the query. As the model is tuned to understand the provided set of companies rather than the whole web corpus, it has enabled a more specialized performance resulting in a leap ahead of Chat GTP. This approach furthermore solves the previous difficulties of backtesting, user control and simultaneously gains the efficiency of AI.
-So far, this solution is live for one of our portfolio companies, where it has been highly effective. They have found and reached out to several new targets and are using our software platform as their primary way of working with M&A. Our meetings have shifted from understanding the necessities of the add-ons to discussing the businesses they have found and the actionability.
-While we were successful in creating a valuable solution for one of our portfolio companies using GPT models, we understand that not every situation can be approached in the same way. While some may focus on the potential of this technology for M&A sourcing, our intention with this text is to showcase the value of engineering working closely with investment professionals and portfolio companies. This close collaboration enables one to build an infrastructure that is flexible, adaptive and can quickly respond to the changing needs of the business; in this particular case, using OpenAI as part of the deliverable.
+<h2>HACIA LA ENCRUCIJADA 2024. ¿DÓNDE ESTAMOS? ¿HACIA DÓNDE VAMOS? </h2>
+<p>
+
+Francisco Suárez Dávila 
+Artículo para publicarse en Revista Este Pais 
+Miércoles 22 de marzo de 2023. 
+
+I. HACIA UNA VERDADERA ENCRUCIJADA DE LA HISTORIA 2024. 
+Nos encaminamos hacia una verdadera encrucijada de la historia, la elección de 
+2024. De ella dependerá de manera importante nuestro futuro y el de nuestros hijos. 
+Debemos luchar por una verdadera “reconstrucción” de muchos elementos de 
+nuestro desarrollo como país y aprovechar nuevas oportunidades, o resignarnos 
+a retroceder y rezagarnos frente a lo que ocurre en el mundo. Desde ahora y 
+hasta 2024 ya estamos en un periodo muy complejo, lleno de peligros y riesgos 
+nacionales e internacionales. ¡Es una época de grandes incertidumbres! 
+
+Me voy a referir primero, ¿en dónde estamos? Desentrañar muchas confusiones y 
+contradicciones; segundo, ¿hacia dónde vamos? Inicialmente el proceso de estos 2 
+años hasta la elección y, luego, los escenarios posteriores. 
+
+II. ¿EN DÓNDE ESTAMOS? EL ENTORNO INTERNACIONAL: EL MUNDO DE 
+LAS “7 PLAGAS”. 
+Comenzaré por referirme al entorno internacional, “el mundo de las 7 plagas” 
+que se inició en 2019. Se le ha llamado la “poli-crisis”, la “crisis de crisis”, o una 
+“cascada de crisis” ¡en secuencia… una lleva a la otra, pero no desaparecen, se 
+acumulan! 
+La 1ª Plaga es la pandemia de 2019, como serio problema de salud, que deja 
+
+mundialmente más de 6 millones de muertos. En México más de 600,000 -el 
+cuarto país con el mayor número-más lo que se acumule, derivado de una de 
+las más ineficaces políticas. 
+
+2ª Plaga. Esta pandemia provocó directamente, o por las medidas que se utilizaron 
+para combatirla, como los confinamientos, una de las más extendidas y profundas 
+recesiones mundiales. Afectó el ingreso familiar, el empleo, la quiebra de 
+empresas, la dislocación de cadenas productivas. En Estados Unidos la economía 
+cayó en -2.8%; México, sufrió una de las mayores caídas, -8%. 
+
+Al mismo tiempo, los principales países adoptaron uno de los mayores 
+programas de “compensación social y económica” desde la postguerra. 
+Gracias a ello se dio un importante efecto de “rebote” en 2021; en Estados 
+Unidos, 6%. En México, en cambio, ese estímulo fue de los más débiles, 
+¡comparado apenas al de Uganda! Pero… “cuando todo mejoraba…” 
+
+3ª Plaga, la invasión de Ucrania por Rusia. Esto provoca brutal desabasto de 
+energía y alimentos. Estamos en medio de una escalada militar muy peligrosa. 
+
+4ª Plaga. En 2022 se produce una explosión inflacionaria histórica. ¡Países tan 
+conservadores como Alemania y Estados Unidos tienen inflación cercana al 10%, 
+particularmente, provocada por alimentos y energéticos! 
+
+5ª Plaga. La severa restricción monetaria. La Reserva Federal aumenta 
+históricamente las tasas de interés en 4% en pocos meses, provocando 
+turbulencia en mercados financieros, la libra y el euro casi caen a nivel del dólar. 
+Los costos sobre países emergentes sobre-endeudados pueden suscitar una 
+crisis. México sale bien librado. 
+
+
+6ª Plaga. Tenemos un fenómeno muy difícil de atacar, estancamiento con 
+inflación, el remedio para uno, agrava la otra. Ahora el riesgo es una nueva 
+recesión en Estados Unidos. 
+
+7ª Plaga. El agravamiento de las consecuencias del cambio climático, sequías, 
+inundaciones, incendios. 
+
+III. ¿DÓNDE ESTAMOS EN MÉXICO?
+1. ¿CÓMO SURGIÓ LA 4T Y QUÉ ES? 
+• 
+Lamentablemente la situación del “paciente enfermo”, México, la entendió 
+bien López Obrador: corrupción muy extendida como gangrena; inseguridad y 
+violencia generalizadas; pobreza y desigualdad, un Estado dispendioso, y como 
+resultado de todo ello, malestar de la gente, resentimiento, temor, odio. Las élites 
+y los otros candidatos no entendieron y no actuaron en consecuencia. AMLO 
+gana por más de 50% del voto. Resultó un excepcional comunicador, para 
+acercarse a la gente, ¡y lo sigue demostrando en las “mañaneras” con todos sus 
+defectos, ocurrencias y mentiras! Mantiene sorprendentemente una alta 
+popularidad. 
+• 
+Es necesario entender que este movimiento de AMLO, hacia el autoritarismo y 
+su peculiar forma de populismo es un fenómeno mundial, que acompaña el 
+debilitamiento de las democracias. Un politólogo dijo “el autoritarismo es una 
+característica central de la política global”: el club del que forman parte Trump, 
+Putin, Erdogan, Moshi, Xi, Duterte y, la versión tropical de Bolsonaro y López 
+Obrador, que representan la mayor parte de la población mundial. No es una 
+ideología, es una estrategia para obtener, ejercer y mantener el poder. Lo 
+mismo de derecha que izquierda, tienen las mismas causas y usan los mismos 
+procedimientos. 
+• 
+La 4ª Transformación carece de sustento, de contenido y de políticas 
+articuladas y coherentes. ¿Qué hay y qué queda? Se basa en 5 objetivos: 1º 
+Atacar la corrupción, pero ésta está peor que nunca, pocos casos “simbólicos” 
+de “chivos expiatorios” en la cárcel, esperando procesos; asignación de obra sin 
+licitación, escándalos como SEGALMEX; casos rampantes en su familia y sus 
+colaboradores más cercanos. Lo cual lleva a alto lugar en índices mundiales de 
+corrupción. 2º La austeridad republicana o franciscana también ataca 
+símbolos, como los Pinos o el avión Presidencial, pero se ha convertido en 
+“austericidio”, destruyendo los cuadros de la administración pública, 
+acercándonos a la ingobernabilidad, cesa cuadros técnicos y los sustituye por 
+“cuates” incompetentes. 3º “Primero los pobres”. Ya se descaró López Obrador 
+cuando dijo: “la política social es en realidad “política-política” y significa, “primero 
+los pobres”, pero para comprar sus votos y aumentar su poder. No favorece 
+la movilidad social hacia la clase media, porque ésta no vota por él. 4º Su 
+“política de bienestar social” ha sido en realidad de malestar social: en salud, 
+serio desabasto de medicinas y vacunas, y un desastre de calidad de una 
+educación ideologizada. En el tema fundamental de Seguridad, no hay política, 
+sólo “abrazos y no balazos”, hay pasividad de las fuerzas armadas o aún 
+complicidades, el narco controla la tercera parte del territorio que es narco-estado. 
+Tenemos uno de los mayores números de asesinatos, con violencia, de 
+periodistas y de mujeres. 5º Soberanía energética, vuelta al pasado, quiebra de 
+PEMEX y CFE en generación de energías fósiles contaminantes y dependencia 
+de importaciones. En síntesis, sus pilares: corrupción, austeridad, bienestar, 
+primero los pobres, “abrazos y no balazos”, soberanía energética, ¡se han 
+derrumbado!, ¡no significan nada, no queda nada y no hay nada más! 
+
+• 
+La cuarta transformación es una burla, no hay comparación posible con la de 
+Juárez, Madero, Lázaro Cárdenas. Es más bien la Cuarta Regresión o 
+Retroceso. 
+• 
+Ha sido un gobierno destructor de instituciones. Ha creado pocas que sean 
+útiles, algunas los ha tratado de sustituir por algo que no funcionó, pero en 
+general ha destruido muchas instituciones. Lo ilustra el caso de la cancelación del 
+Seguro Popular, que dejó a 15 millones sin cobertura; lo sustituyó por el INSABI, 
+que fracasó rotundamente. El prestigiado Programa social integral Oportunidades, 
+lo cambió por la becas “patito” Juárez; el nuevo gran aeropuerto de Texcoco, por 
+el Felipe Ángeles; destruyó las escuelas de tiempo completo, las guarderías. 
+Destruyó la promoción de turismo, ProMéxico; desvirtuó FONATUR. Destruyó el 
+CONACYT, porque “la ciencia es neoliberal”, etc. Ofensiva contra los organismos 
+reguladores autónomos. 
+2. ¿CUÁLES HAN SIDO LAS PRINCIPALES POLÍTICAS DE LA 4T Y SUS 
+RESULTADOS? 
+Veamos una por una: 
+
+A) Nuestra economía “estancada”.
+1) Un sexenio perdido en crecimiento económico. AMLO ofreció crecer al 4%. Su 
+primer año fue “cero”; su segundo, -8%; su tercero, con un “rebote” 4.8%; el 
+cuarto año mejoró, 3%, pero apenas recuperamos el nivel de 2018. Es el sexenio 
+de más lento crecimiento en 5 gobiernos, desde de De La Madrid. 
+2) Inversión total, históricamente baja y deformada hacia el “cementerio de los 
+“elefantes blancos”. Sin inversión no se puede crecer. La inversión pública de 
+3% del PIB es de las más bajas de nuestra historia. Además, muy mal asignada 
+a proyectos disparatados, sin efecto multiplicador. El Tren Maya ha 
+provocado un gran desastre ecológico en nuestra gran reserva ambiental del 
+sureste; la refinería de Dos Bocas, es un “invento” mexicano, como la primera 
+refinería “subacuática”, que nace obsoleta, cuando el mundo va hacia autos 
+eléctricos; el aeropuerto Felpe Ángeles, tiene mala comunicación terrestre y, por 
+las condiciones del valle de México, no resuelve la saturación del aeropuerto de la 
+Ciudad de México, porque no agrega vuelos, sólo los puede sustituir; crear una 
+línea aérea militar es una aberración mundial, cuando las líneas aéreas están 
+quebrando. ¡La inversión privada, también disminuida por falta de certidumbre 
+jurídica y un ambiente favorable! 
+B)La política de Bienestar Social se convierte en Malestar Social. 
+
+1) Su principal problema es que está constituido por programas asistenciales, 
+clientelares, fragmentados para compra de votos. No tienen normas o reglas de 
+operación, ni buen padrón de beneficiarios. Son dádivas, paliativos, limosnas. Una 
+verdadera política social debe aportar los elementos para salir de la pobreza, “no 
+regalar pescados, enseñar a pescar”. Eso no ocurre. Es un sistema primitivo, no 
+articulado, hacia pocos resultados sociales. 
+2) Ha aumentado la pobreza desde 2018, prácticamente bajo cualquier definición, 
+extrema, laboral, en varios millones. Va vinculado con el desempleo y ahora, el 
+deterioro de la calidad del empleo, de formal a informal y luego, precariedad. Sí, 
+algunos indicadores han mejorado en 2023. Los aumentos del salario mínimo, sí 
+fueron un acierto. Somos uno de los países más desiguales -tema fundamental-el 
+1% más rico absorbe el 27% del ingreso nacional; campeones mundiales. 
+
+3) Desastre en el Sector Salud. Pavoroso desabasto de medicinas, sustituyéndose 
+el sistema de distribución IMSS, actuando con intermediarios privados que 
+funcionaban. Destrucción, del orgullo nacional, el sistema de vacunación a niños, 
+cuya cobertura cayó de 80 a 28%. Sustitución del Seguro Popular, que daba 
+cobertura a 50 millones, por el INSABI fracasado. Gasto en salud insuficiente, 3% 
+del PIB (su modelo Dinamarca gasta 10% del PIB) y además subejercido. 
+Importación de médicos cubanos, proselitistas. 
+4) Criminal política Educativa. Con la pandemia se perdieron 2 años, hubo una 
+deserción escolar cercana a los 2 millones, sin ningún programa de emergencia 
+compensador, partiendo de gasto insuficiente, 3% del PIB, que antes fue el doble. 
+La ocurrencia son los nuevos libros de texto con enseñanza marxista y la filosofía 
+humanista de la 4T, guiada por el Director de Bibliotecas de Maduro. Tenemos 
+uno de los peores sistemas educativos, medidos por la OCDE, en capacidad de 
+lectura, matemáticas, ciencias, de niños de 7 a 14 años. Las universidades 
+¿“patito” Juárez?, qué calidad de médicos y enfermeras generará. 
+5) Política de Pensiones. El programa de adultos mayores es de lo más rescatable. 
+Se dio una reforma incipiente del sistema formal de pensiones. Pero su 
+desequilibrio global, cuando la población envejece, es un serio problema para las 
+finanzas públicas. 
+C) La marcha hacia el autoritarismo y la destrucción de la democracia. 
+1) El mayor peligro es la marcha hacia una política autoritaria yantidemocrática. A diferencia de en la economía, aquí sí tiene un modelo. Se 
+integra por la violación sistemática del Estado de Derecho y la Constitución. 
+Debilitamiento de los pesos y contrapesos institucionales, como la división de 
+poderes, a través del legislativo y el judicial. Yo fui Diputado. Nunca sufrí la gran 
+vergüenza de que el gobierno mandara una iniciativa de ley o un presupuesto 
+para que se aprobara sin lectura, sin discusión, sin cambiar una “coma”. El 
+debilitamiento de la libertad de expresión por los medios escritos y electrónicos, 
+que sufren hostigamiento y ataques diarios. 
+2) El elemento más visible es la ruta hacia el desmantelamiento del INE para que no 
+pueda operar con imparcialidad el proceso electoral o aún, que simplemente no 
+pueda operarlo por recortes en su presupuesto o personal. Clave será la elección 
+de su Presidente y 3 consejeros que se busca sean con elementos afines a la 4T. 
+3) Otro aspecto es la lucha por el control de la Suprema Corte. Parece tener 3 
+incondicionales. Necesita uno más para impedir que haya mayoría calificada, 
+necesaria para declarar la constitucionalidad o inconstitucionalidad de una ley. 
+Aquí descansa la esperanza del “dique” para evitar leyes absurdas, contrarias al 
+interés nacional y que violan la Constitución. 
+D) La gran regresión militarista. 
+1) Nada más peligroso para la defensa de la democracia, ni más propicio para la 
+consolidación de un régimen autoritario, que una “regresión militarista” como la 
+que estamos viendo. Es acercarse al modelo terrible de Venezuela, Cuba y 
+Nicaragua. Significaría un enorme retroceso. Con el Presidente Alemán, hace 
+más de 70 años, se instauró un gobierno civilista, en que el Ejército cumplía con 
+funciones de seguridad nacional, bien definidas y defendía las instituciones. Nos 
+diferenciaba de gobiernos militares en América Latina. 
+
+2) La “militarización” en proceso, incorpora la Guardia Nacional a la SEDENA, 
+violando la Constitución, ya que según ésta debe tener un mando civil, bajo 
+la Secretaría de Seguridad Publica. Éste es el modelo más exitoso en el mundo: 
+la policía Nacional de Francia, la Guardia Civil de España. Se confunden las 
+funciones de seguridad nacional con la de seguridad pública. 
+3) No hay una estrategia de seguridad pública: “abrazos y no balazos”. La 
+Guardia Nacional no está preparada para realizar funciones de policía, de 
+investigación, con cercanía a la ciudadanía para protegerla. Se aprecia esto 
+con la reciente matanza de Laredo. Se limitan a construir cuarteles, hacer 
+rondines de disuasión. Actúa con retraso frente a masacres, ocupación de 
+poblaciones, corte de líneas de comunicación por el crimen organizado. A veces 
+hay sospecha de contubernio o complicidad. Ha perdido el control de parte del 
+territorio nacional. 
+En cambio, se les han asignado tareas que no tienen nada que ver con sus 
+funciones y que las descuidan: tareas de construcción, desplazando a un sector 
+privado muy golpeando: operación y construcción de aeropuertos civiles, como la 
+aberración del Felipe Ángeles; creación de una línea aérea civil militar, el Tren 
+Maya, hoteles turísticos, sucursales del Banco del Bienestar, manejo de Aduanas, 
+distribución de medicinas y vacunas. Se asigna obra pública sin licitación, sin 
+transparencia y rendición de cuentas, bajo el “manto” encubridor de que es 
+seguridad nacional. Sobre todo, pone en riesgo el prestigio institucional del 
+Ejército, los expone a tentaciones de corrupción y riesgo de escándalos, ¡y 
+denigra a nuestros soldados como constructores! 
+
+E) La política exterior desprestigiada, de ocurrencias y “bochornos”. 
+Nuestra política exterior y nuestro servicio exterior alcanzaron niveles de gran 
+prestigio a lo largo de nuestra historia, escribiendo grandes páginas en defensa de 
+causas nobles. Hemos aportado mucho a la creación del orden multilateral y la 
+creación de organismos mundiales y latinoamericanos. 
+
+1) Ahora nos enfrentamos a varios problemas: el desmantelamiento ydesprofesionalización de la Cancillería. No hay un solo embajador de prestigio 
+en ninguno de los principales países; sólo 2 de carrera en América Latina. Se han 
+rechazado nombramientos impresentables, como en el caso de Jesusa Ramírez 
+en Panamá, designado un escritor mediocre en Rusia, una novelista en Brasil. Se 
+canceló la Subsecretaría de América del Norte, la más importante. 
+2) La absurda “pausa” en las relaciones con España, nuestro principal y eficaz 
+vínculo con Europa. Primero, solicitando la famosa “carta del perdón” por los 
+“pecados de la Colonia”. Se compensa y rectifica en una exitosa reunión 
+Parlamentaria en Madrid y una visita del Canciller Español y parte del gabinete, 
+que luego el Presidente descalifica. De nuevo “pausa”, muy inoportuna, cuando a 
+España le corresponde la Presidencia de la Unión Europea y de la Reunión 
+Cumbre de ésta con América Latina. Está pendiente la ratificación del Tratado con 
+la Unión Europea. 
+3) Los “bochornosos” incidentes con Perú, nos llevan por primera vez a las 
+expulsiones y retiros de los 2 embajadores, por una política de apoyo a un 
+Presidente incompetente que preparaba un golpe de Estado y fue removido por el 
+marco constitucional peruano, política claramente intervencionista (que ahora le 
+reclama a Estados Unidos), desarticula la Alianza del Pacífico, que funcionaba 
+bien. 
+
+4) Sobre todo, se están generando las graves y peligrosas tensiones con los 
+Estados Unidos en varios frentes: 1) los conflictos del T-MEC no resueltos con 
+la energía y ahora el maíz transgénico, que pueden llevar a sanciones; 2) el 
+servilismo en materia de migración, aceptando miles de asilados de nuevos 
+países, que presenta flujos incontrolables, afectando la vida fronteriza, sin 
+recursos e instituciones; 3) el mortífero flujo de fentanilo y los homicidios del 
+crimen organizado, descontrolados; 4) el deterioro de nuestro sistema 
+democrático hacia un régimen autoritario y 5) nuestro “coqueteo” con las peores 
+dictaduras, Cuba, Rusia, Nicaragua. ¡Todo ello ha provocado las amenazas de 
+legisladores influyentes de Estados Unidos, orientados a permitir intervenciones 
+armadas ante la incompetencia, complicidad o pasividad de nuestra política de 
+seguridad! 
+Nuestra imagen ante las instituciones y la opinión pública de Estados Unidos y 
+mundial nunca se ha degradado tanto (juicio de García Luna, Laredo, 
+Matamoros). Consideran que nos aproximamos a un Estado “fallido” o un narco 
+Estado. ¡Grave problema! Un destacado analista, Fareed Zakaria de CNN y otros 
+medios, escribió: “AMLO es un populista demagogo, salido de las peores páginas 
+de la historia de América Latina” y concluye: “Se ha convertido en un Trump 
+mexicano”. 
+
+En conclusión, puede argumentarse que ha sido uno de los peores (¿el peor?) 
+gobiernos del último siglo. Apoyado en uno de los más incompetentes gabinetes: 
+ministros(as), “floreros”, fantasmas, cortesanos, oportunistas, perversos… ¿ubica 
+usted a cada quién? 
+
+3. ¿HACIA A DÓNDE VAMOS?: 
+A) EL ENTORNO MUNDIAL 2023-2024. 
+1) En el panorama internacional. Se avanza pero subsisten riesgos. 
+El Covid-19 parece controlarse, sobre todo por el efecto de las vacunas, pero el 
+virus se modifica y hace evidente que deben fortalecerse los sistemas de salud, cuya 
+fragilidad se evidenció. La guerra de Ucrania cumplió un año, no hay señales de 
+acuerdo diplomático, ni de victoria de ningún lado, y siempre existe un riesgo de 
+escalada hacia uso de armas más letales. La explosión inflacionaria se ha 
+moderado un poco, pero dista de controlarse y la FED ya anunció mayores alzas de 
+tasas de interés que afectan mercados y países emergentes y ahora bancos 
+quebrados en problemas. Hay una cierta recuperación económica y parece diferirse 
+el riesgo de una nueva recesión, pero ese “fantasma” sigue presente. Los flujos 
+migratorios incontenibles se presentan en todos los continentes. 
+2) El “New Deal” verde de Biden y una nueva etapa en la integración de Norte 
+América (el famoso “near shoring”). 
+Hay un aspecto nuevo muy importante, que hay que subrayar: el Presidente Biden 
+ha lanzado un programa sustentado en 4 grandes iniciativas legislativas, que 
+significa: a) la mayor inversión de la historia en energías verdes, limpias,
+renovables, promoviendo cambio de estructura de la industria manufacturera, 
+estimulando el transporte eléctrico; b) Programa de Contención de la Inflación; 
+
+c) impulsó a la ciencia y tecnología e inversiones masivas en semiconductores 
+y d) gran programa de inversión en infraestructura. ¡El renacimiento del concepto 
+de una política industrial moderna! 
+
+A ello se suma la gran iniciativa lanzada en la Cumbre de Norteamérica hacia una 
+nueva etapa de la Integración Norteamericana, con el fortalecimiento de las 
+cadenas productivas y la relocalización de empresas, el llamado “Near y friendly 
+shoring”, propiciado por la confrontación geopolítica con China, que da posibilidad 
+de absorber en el Continente, parte del comercio y la inversión que se daba con 
+Asia. Todo esto implica un cambio de paradigma, como el “New Deal”, 
+impulsado por Roosevelt y que transformó al mundo, como respuesta a la 
+Gran Depresión. 
+
+México tiene una gran oportunidad, pero hay que identificar los obstáculos que 
+existen para aprovecharlos: carencia de infraestructura de comunicaciones, 
+capacitación de la mano de obra, falta de energía, gas y electricidad, agua, ausencia 
+de garantías por inseguridad y Estado de derecho. Donde hay algún avance es 
+sobre todo en gobiernos locales ilustrados, sobre todo en el norte del país, donde ya 
+se está dando un auge de nuevas inversiones (Tesla es un caso). 
+
+3. ¿HACIA DÓNDE VAMOS?:
+B) EL ENTORNO NACIONAL.
+1) Mejoría Económica. 
+Aquí también hay cambios favorables. Nadie creyó en las estimaciones de Hacienda 
+que creceríamos 3% en 2022. Primera vez que le atina, mejoraron las cifras de 
+empleo y pobreza. Pero, hasta ahora se recupera el nivel de 2018, aunque se 
+espera desaceleración para 2023 (1.5%). Tenemos cifras record en exportaciones, 
+turismo, remesas, inversión extranjera, aunque crecimiento negativo en la 
+construcción, que indica las deficiencias de la inversión nacional. 
+
+Sucede que el Presidente pondera mucho el logro de “un peso fuerte”. Sabe que “si 
+el peso se devalúa, el Presidente se devalúa”; ahora “se revalúa”. Muy sencillo, el 
+mérito es del Banco de Mexico, que sigue como “espejo” a la FED con sus aumentos 
+en la tasa de interés. Hay ahora un diferencial de 6% y hay que reconocer que 
+gracias a la SHCP tenemos relativamente menor déficit fiscal y menor 
+endeudamiento, que otros países competidores. Paradójicamente, seguimos las 
+políticas más “neoliberales” que el Presidente critica a diario y que es su “tabla de 
+salvación”. 
+
+Yo creo que con esto podremos llegar a fin de sexenio, 2024, con “parches” por aquí 
+y por allá, pero sin una crisis financiera, cosa que es lo que más teme AMLO y que 
+trata de evitar. 
+
+2) Deterioro político. 
+Lo político, en cambio, da señales de deterioro. El Presidente encamina sus 
+acciones en un sentido antidemocrático y autoritario. Pretende desmantelar nuestro 
+valioso sistema electoral. Ataca diariamente al valiente Presidente del INE, Lorenzo 
+Córdova; a la titular del Poder Judicial, la Ministra Piña, para debilitar la división de 
+poderes e introducir su “nefasta pseudo” reforma electoral, polariza diariamente en la 
+“mañanera” con ocurrencias, falsedades y agresiones a las voces críticas. Ahora las 
+amenazas van hacia la “autonomía” de la UNAM (“que no se toque”). Muy peligroso 
+deterioro de la relación con Estados Unidos. 
+La sociedad civil ha despertado con gran dinamismo. Han habido importantes 
+triunfos en el proceso de salvamento y fortalecimiento de la democracia: 1) impedir 
+que Morena lograra mayoría calificada en las 2 Cámaras; 2) Morena perdió la 
+mitad de las alcaldías en la Ciudad de México; 3) 2 insólitas mega-marchas 
+ciudadanas para impedir las reformas electorales; 4) impedir que la Ministra 
+“plagiaria” llegara a la Presidencia de la Corte. ¡Todo ello es esperanzador! 
+
+
+Pero estas victorias ciudadanas sacan de “quicio” al Presidente y lo vuelven cada 
+vez más violento y agresivo. ¡Pierde la brújula! 
+
+Su estrategia primordial, casi única, de incrementar su poder, que su movimiento 
+gane las elecciones de 2024. Para ello está preparando todas sus armas, “limpias y 
+sucias”. Debe ganar la reforma electoral “B”; destruir el INE y con ello, tener el 
+control de las elecciones; debilitar o penetrar a la Suprema Corte. 
+
+Por ello, es fundamental que la Corte vote a favor de la “anticonstitucionalidad” 
+de la reforma electoral con 8 ministros. Después de la marcha creo es factible 
+lograrlo. 
+
+C) ESCENARIOS DE AQUÍ A LAS ELECCIONES Y DESPUÉS. 
+A) ¿Hacia dónde vamos de aquí a las elecciones?
+Lo que se puede decir es que es todavía es un panorama incierto, muchas cosas 
+pueden pasar. 
+
+1) Si hay riesgos políticos. 
+Puede haber turbulencia electoral, si el gobierno excede sus facultades, comete 
+abusos, fraudes, por ejemplo, en Coahuila o Estado de México. Si se destruye el 
+aparato electoral del INE, la operación de los 300 distritos electorales, el 
+despido del 85% de sus funcionarios y operadores, los que quedan pueden no 
+poder operar una elección creíble. Si por ejemplo no operan 25% de las casillas, la 
+elección es nula. Eso es el aquelarre político. 
+
+HAY 2 ESCENARIOS ELECTORALES POSIBLES: 
+
+1) Sí puede ganar la coalición ciudadana opositora (un sueño, posible). 
+Aunque va atrasada. Los 3 partidos políticos van a la zaga de la movilización social 
+ciudadana, debe sumarse el Movimiento Ciudadano. Se requiere que trabajen juntos 
+la sociedad civil y los partidos políticos. ¡Sólo se puede ganar con los 2! Se requiere 
+un liderazgo y organización de esfuerzos aislados. ¡El PRI debe sustituir a su 
+liderazgo impresentable! 
+
+Además, precisan 2 condiciones: primero, un Programa de Gobierno atractivo a 
+las clases medias, los grupos de bajos ingresos, los desencantados, los jóvenes, con 
+propuestas eficaces que la gente necesita, no sólo críticas. Deben captar la 
+emoción, no sólo la razón. Hay varios intentos, todavía no satisfactorios. En segundo 
+lugar, un buen método de selección de candidato ganador, no dominado por las 
+dirigencias de los partidos, sus cuotas y componendas, sino con fuerte injerencia de 
+la sociedad civil; es decir, un proceso ciudadanizado. Por ejemplo, un grupo 
+organizador, un registro de candidatos que reúnan requisitos. “Placearlos” por el país 
+en foros de discusión, plantearles preguntas. Un sondeo permanente por redes 
+sociales. 
+
+Ayudan las divisiones en Morena, puede fracturarse. Su voto duro de 30% (20 
+millones) puede superarse por las clases medias, sus desencantados, los 
+empresarios y, sobre todo, que voten los jóvenes. El norte del país y la Ciudad de 
+México, descontentos. ¡Se necesita transmitir lo que está en juego, que todos voten 
+como nunca! 
+
+También es importante que la coalición opositora de gobierno gane las elecciones 
+de Coahuila, muy probable, y el Estado de México, más difícil, pero no imposible. 
+Cambiaría la dinámica. 
+
+
+2) Triunfo de Morena. 
+Todavía, es lo más factible, AMLO tiene un dilema, sus mejores opciones con 
+capacidad para gobernar son quienes le aseguran menos lealtad y protección: 
+Monreal y Ebrard; los más incapaces para gobernar son los más leales: 
+Scheinbaum y Augusto López. 
+Puede aventurarse que cualquiera de ellos sería menos malo como gobernante 
+que AMLO, pueden ser más pragmáticos, pero no tendrían, ni el carisma, ni los 
+apoyos populares necesarios. Pueden requerir probablemente apoyarse en más 
+consensos, menos polarización, mejor equipo de colaboradores. 
+
+3) Las incertidumbres para cualquier Nuevo Gobierno. 
+De aquí a 2024 hay muchos imponderables, “cisnes negros” o “zopilotes blancos”, 
+que están sobrevolando, interna y externamente, y que de “aterrizar”, pueden 
+provocar crisis que afecten la elección. ¡Todo puede pasar! Una crisis fiscal 
+financiera que arrastre al tipo de cambio, que perjudicarían a Morena; alguna medida 
+severa de sanciones, adoptadas por Estados Unidos ante nuestra inacción en temas 
+fundamentales. 
+
+El problema va a ser los retos al inicio de cualquier nuevo gobierno. Cualquiera 
+recibirá una herencia “nefasta”. Puede haber, según los pronunciamientos del 
+ganador, incertidumbres, desconfianza, fugas de capital. Si se radicaliza, peor. Hay 
+falta de recursos fiscales. ¡Se requerirá una reforma fiscal! Muy difícil para un nuevo 
+gobierno débil. Se necesita un Pacto Nacional. El otro escenario deseable será 
+presión para hacer rectificaciones, crear consensos, evitar polarización, seleccionar 
+un buen gabinete. ¿Qué hará AMLO en ese escenario? Mantenerse en su Hacienda 
+
+o intervenir como Santa Anna o Calles. 
+IV. SOÑAR NO CUESTA. 
+Termino con un “sueño” proponiendo lo que me parece deben ser los principales 
+elementos de un Programa de Gobierno post-2024 para una coalición ciudadana y 
+de partidos: 
+
+1) Un Acuerdo Nacional con los principales actores, que le dé prelación al objetivo 
+central de acelerar el crecimiento a niveles de 4%. ¡Sin crecimiento no se puede 
+avanzar! ¡Ello genera empleo de calidad! 
+2) Un Programa Nacional de Inversión, incluyendo: a) inversión pública en 
+infraestructura, pero bien evaluado y b) estímulo a la inversión privada, dando 
+un marco jurídico con certidumbre y respeto al Estado de Derecho. 
+3) Impulsar una política industrial y tecnológica moderna, 4G para el Siglo XXI, para 
+estimular sectores estratégicos con los necesarios apoyos: eliminando obstáculos 
+en infraestructura, de comunicaciones, energía, entre otros. 
+4) Una nueva política de Integración Regional en Norte América con acuerdos 
+educativos, científico-tecnológico; de mano de obra, que es necesaria; todo para 
+facilitar relocalización de empresas (“near shoring”), como gran oportunidad. 
+5) Para todo lo anterior, una política activa de financiamiento de la banca de 
+desarrollo, ahora ausente, y de la banca privada comercial, que debe contribuir 
+explícitamente al desarrollo del país, no sólo al lucrativo crédito al consumo. 
+6) En lo social: lo social, lo social. 
+a) Avanzar hacia un sistema integrado de cobertura de salud universal, gratuita 
+para los más pobres, con la convergencia de sistemas existentes. 
+
+b) Seguro de desempleo temporal, con capacitación a los trabajadores. 
+c) Un ingreso mínimo básico para los más pobres. 
+d) Reforma de Pensiones. 
+Se requiere reducir eficazmente la desigualdad y la pobreza. 
+
+7) Educación de calidad para la 5G, para la era digital; de la primaria a la 
+universidad. 
+8) Un programa integral de jóvenes para darles aliento, empleo, capacitación, 
+deporte, institutos tecnológicos. India lo hizo creando 100 institutos. 
+9) Una agricultura moderna –va bien la exportación-, pero requerimos 
+autosuficiencia en áreas estratégicas, como granos, ¡apoyo al desarrollo en zonas 
+marginadas! 
+10) Una política energética y verde, transformadora, del medio ambiente, con 
+transición programada hacia energías renovables, eólicas, solares; diseñar la 
+transformación de PEMEX y CFE con un nuevo modelo de negocios, pero con 
+amplia participación privada en el sector. 
+Para todo ello, una reforma hacendaria, balanceada, equitativa, negociada, que nos 
+dé los recursos necesarios a lo largo del tiempo, con un plan de ruta. 
+
+Las circunstancias exigirán un verdadero gran Programa de Seguridad para 
+combatir el crimen organizado, las exportaciones de fentanilo, a través del 
+fortalecimiento de las policías estatales y municipales -buenos resultados en Mérida 
+y Tampico-y una nueva policía federal civil, eliminando la Guardia Nacional, con 
+sistemas de inteligencia, con reformas a la procuración de justicia, con suficientes 
+recursos, institucionalizar la cooperación con Estados Unidos. ¡Antes de que sea 
+tarde! De lo contrario, seremos crecientemente considerados un Estado “fallido”, 
+incompetente, un narco-Estado. 
+
+V. REFLEXIONES FINALES. 
+Hemos concluido un panorama muy amplio para definir dónde estamos en México 
+y en el mundo, en lo económico y político. Tarea difícil, porque es un momento 
+muy complejo, pleno de incertidumbres. ¡El mundo ya cambió y cambia cada día! 
+¡Creo haber demostrado que la 4T no es “transformación positiva”, es regresión y 
+severa destrucción a instituciones! 
+Necesitamos hacer una gran tarea de reconstrucción nacional. Se dará, tarde o 
+temprano, por designio o forzados por una crisis. ¡Las oportunidades que se abren 
+por lo que ocurre en el mundo y en Norte América, casi nos da un “traje a la medida” 
+para aprovecharlo! Necesitamos todos votar, unirnos, para lograr un cambio 
+político… de lo contrario, ¡iremos al precipicio! 
+
+Hay que reconocer que ha habido avances. Se dice fácil, “primer socio comercial de 
+Estados Unidos”; avances en democracia, regiones prósperas, sobre todo, la gente: 
+empresarios, emprendedores exitosos, jóvenes talentosos de universidad de clase 
+mundial, ubicación geográfica privilegiada, recursos naturales. Tenemos pues una 
+plataforma envidiable. Hay que trabajar todos para que lo que resta del siglo XXI sea 
+nuestro “siglo” y sea un nuevo “mexican moment”. ¡Sí se puede! ¡Reconstruir, 
+navegar con piloto y ruta, no a la deriva, evitar los arrecifes! 
+
+Mi ensayo podría llamarse: “Todo, en todas partes, al mismo tiempo”… aunque no 
+gane el Oscar.        
 </p>
 </div>
 
